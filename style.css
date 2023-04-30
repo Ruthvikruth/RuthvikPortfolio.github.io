@@ -1,0 +1,125 @@
+html
+        {
+            scroll-behavior: smooth;
+        }
+
+        .heading
+        {
+            color: #2998E2;
+            font-size: 49px;
+            font-family: Geneva, Verdana, sans-serif;
+            display: block;
+            margin-bottom: 0.2px;
+            margin-left: -2%;
+        }
+
+        body
+        {
+            background-image: url("https://lh3.googleusercontent.com/swHwhEo8RuIG4efuJ2sVW9UiLdcgudpEPIpU3X3a4pYyICbucTz5ajC7CfR7Ql2vmIM=w2400");
+        }
+
+        .Body1
+        {
+            font-family: 'Franklin Gothic Medium';
+            color: #DDD;
+            font-size: 175%;
+            margin-left: 8%;
+        }
+
+        .img1
+        {
+            margin-left: 90%;
+            border-radius: 20%;
+            transition: all 0.25s ease-in;
+            /*Generates curves across corners
+            Above 50% it'll become more like an oval or circle*/
+        }
+
+        .img1:hover
+        {
+            width: 320px;
+            transition: all 0.25s ease-in;
+        }
+
+        .separate {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            /*The one that makes the text and image sit next to each other*/
+            margin-top: 2px;
+            width: 70%;
+        }
+
+        .spanintro {
+            margin-top: 0%;
+            width: 120%;
+        }
+
+        .subheading {
+            color: #C9AF07;
+            font-size: 34px;
+        }
+
+        a
+        {
+            color: black;
+            padding: 5%;
+            margin-top: 5%;
+        }
+
+        .Jumps
+        {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            margin-left: -0.6%;
+            margin-top: -0.6%;
+            margin-right: -0.5%;
+            text-align: center;
+            background-color: #FFF;
+            padding-top: 3%;
+            justify-content: center;
+            padding-bottom: 3%;
+        }
+
+        .Jumps a:link
+        {
+            padding:3%;
+            transition: all 0.2s ease-in;
+            text-decoration: none;
+            font-size: 150%;
+        }
+
+        .Jumps a:hover
+        {
+            background-color: black;
+            color: white;
+            transition: all 0.15s ease-in;
+        }
+
+        .technical
+        {
+            justify-content: center;
+            padding-left: 10%;
+        }
+
+        #Bottom a
+        {
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            transition: all 0.2s ease-in;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+        }
+
+        .Footer
+        {
+            text-align: center;
+            background: #EEE;
+            margin-left: -9.1%;
+            margin-right: -0.6%;
+            color: black;
+            padding-bottom: 5%;
+        }
